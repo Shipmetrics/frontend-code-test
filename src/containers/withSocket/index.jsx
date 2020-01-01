@@ -6,4 +6,4 @@ import io from "socket.io-client"
 //   console.log("message received", message)
 // })
 
-// TODO HoC providing socket props
+// Context providing socket props
