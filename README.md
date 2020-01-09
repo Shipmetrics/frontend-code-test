@@ -53,10 +53,11 @@ This project is supposed to submit Tasks (simple objects) to a server where they
 
 - The form should consist of a an input element for the name, a checkbox to set the tasks priority and a submit button
 - Tasks should be displayed in a table or a list
-- New tasks should be recevied asynchronously via Socket.IO and automatically be added to the table/list (sort sort descending by timestamp)
+- New tasks should be recevied asynchronously via Socket.IO and automatically be added to the table/list
+- Tasks should be sortable by timestamp
 - Uncompleted tasks should be marked accordingly (for example with the existing spinner component in `components/Spinner`)
 - Prioritized Tasks should be marked accordingly
-- The Socket.IO client should be implemented with the Context feature. The Context should contain the complete state and pass tasks and the functionalty to create new tasks to the main component as props.
+- The Socket.IO client should be implemented with the Context feature. The Context should contain the complete socket state and pass tasks and the functionalty to create new tasks to the main component as props.
 - Create a single component for every element (form, list of tasks, single tasks) to keep the code simple and demonstrate the data flow.
 
 ### Code
